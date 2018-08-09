@@ -29,7 +29,7 @@ class Solution:
             else:
                 dic[target - num] = i
 if __name__ == '__main__':
-    nums = [2, 7, 2, 15]
+    nums = [2, 72, 2, 15]
     target = 4
     s = Solution()
     res = s.twoSum2(nums,target)
